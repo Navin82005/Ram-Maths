@@ -1,4 +1,4 @@
-import book_stack from "../../assets/image/book-stack.png";
+import book_stack from "../../../assets/image/book-stack.png";
 
 const FeaturedSection = () => {
   return (
@@ -14,8 +14,8 @@ const FeaturedSection = () => {
 
       {/* Right Side: Details */}
       <div className="w-full md:w-1/2 mt-6 md:mt-0 md:ml-8">
-        <h2 className="text-4xl font-bold text-primary mb-4">Hot Sales</h2>
-        <p className="text-base text-secondary mb-6">
+        <h2 className="text-4xl font-bold text-text-primary mb-4">Hot Sales</h2>
+        <p className="text-base text-text-secondary mb-6">
           +2 guide volume 2 is now available for sale. This guide is designed to
           help students excel in their studies with ease and confidence.
         </p>

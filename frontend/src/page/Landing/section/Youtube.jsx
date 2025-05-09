@@ -1,13 +1,13 @@
-import youtube_ref from "../../assets/image/youtube-ref.png";
+import youtube_ref from "../../../assets/image/youtube-ref.png";
 
 const YoutubePromoSection = () => {
   return (
     <section className="flex flex-col md:flex-row items-center justify-between p-6 bg-background rounded-2xl shadow-md">
       <div className="md:w-1/2 text-center md:text-left">
-        <h2 className="text-4xl font-bold text-primary mb-4">
+        <h2 className="text-4xl font-bold text-text-primary mb-4">
           Subscribe to Our YouTube Channel!
         </h2>
-        <p className="text-lg text-secondary mb-6">
+        <p className="text-lg text-text-secondary mb-6">
           Stay updated with the latest videos, tips, and tricks. Don't forget to
           like, share, and subscribe to support us!
         </p>

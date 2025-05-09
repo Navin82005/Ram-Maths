@@ -1,28 +1,32 @@
 import { Link } from "react-router-dom";
-import { FullLogo } from "../../assets/vector";
+import { RamMaths } from "../../assets/vector";
+
 
 const FooterSection = () => {
   return (
-    <footer className="bg-background text-white">
+    <footer className="bg-primary text-text-primary">
       <div className="container mx-auto px-4 py-8 flex flex-col md:flex-row justify-between items-start">
         {/* Logo */}
         <div className="mb-4 md:mb-0">
-          <img src={FullLogo} alt="Logo" className="h-24" />
+          {/* <img src={FullLogo} alt="Logo" className="h-24" /> */}
+          <Link to="/">
+            <RamMaths />
+          </Link>
         </div>
 
         {/* Links */}
         <div className="flex flex-col md:flex-row gap-8">
           <div>
-            <h3 className="font-bold text-textPrimary text-lg mb-2">
+            <h3 className="font-bold text-text-primary text-lg mb-2">
               Quick Links
             </h3>
-            <ul className="space-y-1 text-textSecondary text-sm">
+            <ul className="space-y-1 text-text-secondary text-sm">
               <li>
                 <Link
-                  to="/about"
+                  to="/guides"
                   className="hover:underline hover:text-accent transition"
                 >
-                  About Us
+                  Available Guides
                 </Link>
               </li>
               <li>
@@ -45,18 +49,18 @@ const FooterSection = () => {
           </div>
           {/* Social Links */}
           <div>
-            <h3 className="font-bold text-textPrimary text-lg mb-2">
+            <h3 className="font-bold text-text-primary text-lg mb-2">
               Social Links
             </h3>
-            <ul className="space-y-1 text-textSecondary text-sm">
+            <ul className="space-y-1 text-text-secondary text-sm">
               <li>
                 <a
-                  href="https://facebook.com"
+                  href="https://www.youtube.com/@rammathstamil"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="hover:underline hover:text-accent transition"
                 >
-                  Facebook
+                  Youtube
                 </a>
               </li>
               <li>
@@ -85,7 +89,7 @@ const FooterSection = () => {
       </div>
 
       {/* Copyright */}
-      <div className="bg-background text-center py-4 text-secondary">
+      <div className="bg-primary text-center py-4 text-text-secondary">
         <p className="text-xs">
           &copy; {new Date().getFullYear()} Ram Maths. All rights reserved.
         </p>

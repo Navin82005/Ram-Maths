@@ -1,5 +1,5 @@
 import FeaturedSection from "./section/Featured";
-import FooterSection from "./section/Footer";
+import FooterSection from "../section/Footer";
 import HeroSection from "./section/Hero";
 import YoutubePromoSection from "./section/Youtube";
 
@@ -9,7 +9,6 @@ const Landing = () => {
       <HeroSection />
       <FeaturedSection />
       <YoutubePromoSection />
-      <FooterSection />
     </div>
   );
 };
