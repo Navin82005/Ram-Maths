@@ -1,4 +1,4 @@
-import book_stack from "../../../assets/image/book-stack.png";
+import { BooksImage } from "../../../assets/vector";
 
 const FeaturedSection = () => {
   return (
@@ -6,7 +6,7 @@ const FeaturedSection = () => {
       {/* Left Side: Image */}
       <div className="w-full md:w-1/2 flex justify-center">
         <img
-          src={book_stack}
+          src={BooksImage}
           alt="Guide Book"
           className="w-4/5 max-w-full h-auto rounded-lg"
         />

@@ -37,22 +37,22 @@
   --color-background: #F9FAFB;
 
   /* Primary Color - Blue (for buttons, highlights) */
-  --color-primary: #2563EB; 
+  --color-primary: #2563EB;
 
   /* Secondary Color - Slightly lighter blue */
-  --color-secondary: #3B82F6; 
+  --color-secondary: #3B82F6;
 
   /* Accent Color - Soft Orange for CTA or highlights */
-  --color-accent: #F59E0B; 
+  --color-accent: #F59E0B;
 
   /* Text Primary - Rich Black */
-  --text-primary: #111827; 
+  --text-primary: #111827;
 
   /* Text Secondary - Medium Gray */
-  --text-secondary: #6B7280; 
+  --text-secondary: #6B7280;
 
   /* Success - Green */
-  --color-success: #10B981; 
+  --color-success: #10B981;
 
   /* Background Element - Light neutral box color */
   --background-element: #FFFFFF;
